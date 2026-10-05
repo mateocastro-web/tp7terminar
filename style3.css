@@ -1,0 +1,91 @@
+
+body {
+    background: #eef5f7;
+    margin: 0;
+    padding: 0;
+    color: #18323f;
+}
+
+.contenido_principal {
+    margin: 4%;
+}
+
+.grupo_botones {
+    margin-left: 3%;
+    margin-top: 1.5%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    gap: 8px;
+}
+
+form input {
+    padding: 8px;
+    margin-bottom: 8px;
+}
+
+button {
+    padding: 8px 14px;
+    border: 1px solid #18323f;
+    margin-right: 5px;
+}
+
+.guardar_docente,
+.guardar_estudiante {
+    color: #18323f;
+    background-color: #167d8d;
+}
+
+.eliminar_docente,
+.eliminar_estudiante {
+    color: #18323f;
+    background-color: #c45b5b;
+}
+
+.nav-link {
+    color: #18323f !important;
+    font-family: Georgia, "Times New Roman", Times, serif !important;
+    font-weight: bold;
+}
+
+
+.panel_estudiantes {
+    width: 45%;
+    margin-left: 3%;
+    margin-top: 3%;
+    padding: 15px;
+    min-height: 400px;
+    border: 2px solid #18323f;
+    box-sizing: border-box;
+    float: left;
+}
+
+
+.panel_docentes {
+    width: 45%;
+    margin-right: 3%;
+    margin-top: 3%;
+    padding: 15px;
+    min-height: 400px;
+    border: 2px solid #18323f;
+    box-sizing: border-box;
+    float: right;
+}
+
+.panel_estudiantes h2,
+.panel_docentes h2 {
+    margin-top: 0;
+}
+
+
+.panel_estudiantes,
+.panel_docentes {
+    margin: 20px;
+    min-height: 450px;
+    max-width: 768px
+    
+}
+

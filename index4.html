@@ -1,0 +1,79 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Docentes registrados</title>
+
+    <link rel="stylesheet" href="style2.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+<nav class="navbar navbar-expand-lg bg-body">
+    <div class="container-fluid">
+
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Inicio</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="index1.html">Registrar Estudiante</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="index3.html">Registrar Docente</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="index2.html">Ver Estudiantes</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="index4.html">Ver Docentes</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="index5.html">Ver Escuela</a>
+                </li>
+
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<main>
+
+    <h1>DOCENTES REGISTRADOS</h1>
+
+    <div class="grupo_botones">
+        <button class="eliminar_docente" type="button" onclick="borrar_db()">
+            BORRAR DOCENTES
+        </button>
+    </div>
+
+    <div id="resultados_db"></div>
+
+</main>
+
+<script src="scriptdb.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
+
